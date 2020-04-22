@@ -4,7 +4,6 @@ public class Dice : GameValidation
 {
     [SerializeField]
     Die die1, die2;
-    float throwForce = 9000;
     bool die1Moving, die2Moving, checkMovement = false;
     bool die1Checked, die2Checked;
     byte currentValue1, currentValue2;

@@ -43,11 +43,6 @@ public class Game
         GameManager.eventHandler.IsRolling = true;
     }
 
-    public void ShowRerollView()
-    {
-
-    }
-
     public void TallyScores()
     {
         if(round == 11)
